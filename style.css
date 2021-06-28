@@ -1,0 +1,10 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(25, 25, 25);
+}
+
+#page-title {
+    text-align: center;
+    color: rgb(200, 200, 200);
+}
