@@ -14,3 +14,14 @@ function showIconBar() {
     iconBar.setAttribute("style", "display:block;");
     navigation.classList.add("hide");
 }
+
+// COMMENT
+function showComment() {
+    var commentArea = document.getElementById("comment-area");
+    commentArea.classList.remove("hide");
+}
+
+function showReplies(id) {
+    var replyArea = document.getElementById(id);
+    replyArea.classList.remove("hide");
+}
